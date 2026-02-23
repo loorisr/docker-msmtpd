@@ -1,3 +1,5 @@
+Updated to XX v1.9.0 & Alpine 3.23
+
 <p align="center"><a href="https://github.com/crazy-max/docker-msmtpd" target="_blank"><img height="128" src="https://raw.githubusercontent.com/crazy-max/docker-msmtpd/master/.github/docker-msmtpd.jpg"></a></p>
 
 <p align="center">
