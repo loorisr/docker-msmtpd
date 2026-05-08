@@ -16,8 +16,7 @@ on:
   pull_request:
 
 env:
-  DOCKERHUB_SLUG: crazymax/msmtpd
-  GHCR_SLUG: ghcr.io/crazy-max/msmtpd
+  GHCR_SLUG: ghcr.io/loorisr/docker-msmtpd
 
 jobs:
   build:
@@ -32,7 +31,6 @@ jobs:
         uses: docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf # v6.0.0
         with:
           images: |
-            ${{ env.DOCKERHUB_SLUG }}
             ${{ env.GHCR_SLUG }}
           tags: |
             type=match,pattern=(.*)-r,group=1
